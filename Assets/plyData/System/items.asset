@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1291266995, guid: 357936f588f68fb4e8f1d038fdfe02c7, type: 3}
+  m_Name: items
+  m_EditorClassIdentifier: 
+  itemFabs:
+  - {fileID: 100002, guid: 586e9178f1281f640908533f8d252c3c, type: 2}
+  - {fileID: 100002, guid: 4ca9fddb33a516a4c918071ca2d80832, type: 2}
+  - {fileID: 100000, guid: da971be9a6fa62440a88587f5a8aa187, type: 2}
+  - {fileID: 100000, guid: 89ff1dcdcca86204a90d8dfe7c39f10a, type: 2}
+  - {fileID: 100002, guid: 500c7552ae86f9d4d9a819f3b712a65d, type: 2}
+  - {fileID: 100002, guid: 35126afab08cb9442ab6c907cf80d80f, type: 2}
+  storageMethod: 2
+  autoPickItemDisableDistance: 20
+  itemTypes:
+  - name: Potion
+    subTypes:
+    - Health
+    - Mana
+  - name: Weapon
+    subTypes: []
+  - name: Armor
+    subTypes: []
+  - name: Helmet
+    subTypes: []
+  - name: Boots
+    subTypes: []
+  equipSlots:
+  - WeaponHand
+  - Body
+  - Head
+  - Feet
+  runtimeCreatedItemsPersist: 1

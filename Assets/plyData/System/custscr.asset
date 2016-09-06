@@ -1,0 +1,2518 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1978762779, guid: 6ddf2bb4864414d4d82bfa4d197efc5b, type: 3}
+  m_Name: custscr
+  m_EditorClassIdentifier: 
+  screens:
+  - id: 0
+    name: prof
+    skin: {fileID: 11400000, guid: 8cedaa4f9f063524e96137b1a308d7b7, type: 2}
+    doClearBack: 1
+    backgroundColor: {r: .204044104, g: .238051474, b: .272058845, a: 1}
+    designWidth: 1024
+    designHeight: 768
+    labelEles:
+    - id: 29
+      name: Label-29
+      type: 1
+      zdepth: 0
+      anchor: 0
+      scaling: 0
+      offsetX: 9
+      offsetY: 140
+      width: 591
+      height: 28
+      visible: 1
+      enabled: 1
+      styleName: label
+      soundClip: {fileID: 0}
+      eventName: 
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      text: "\u0415\u0441\u043B\u0438 \u0432 \u0412\u0415\u0411 \u043D\u0435 \u0437\u0430\u043F\u0443\u0441\u043A\u0430\u0435\u0442\u0441\u044F,
+        \u043F\u043E\u043F\u0440\u043E\u0431\u0443\u0439\u0442\u0435 \u043E\u0447\u0438\u0441\u0442\u0438\u0442\u044C
+        \u043F\u0440\u043E\u0444\u0438\u043B\u0438 (Clear all profiles)."
+      showOutline: 0
+      showShadow: 1
+      outlineColor: {r: 0, g: 0, b: 0, a: 1}
+      shadowColor: {r: 0, g: 0, b: 0, a: 1}
+      outlineThickness: 2
+      shadowOffset: {x: 1, y: 1}
+    imageEles:
+    - id: 28
+      name: Image-28
+      type: 2
+      zdepth: 1
+      anchor: 4
+      scaling: 3
+      offsetX: 0
+      offsetY: 0
+      width: 1920
+      height: 1080
+      visible: 1
+      enabled: 1
+      styleName: 
+      soundClip: {fileID: 0}
+      eventName: 
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      texture: {fileID: 2800000, guid: 717038c617b67524baba0c13f2b1c72e, type: 3}
+    movieEles: []
+    buttonEles:
+    - id: 23
+      name: btn-2
+      type: 4
+      zdepth: 0
+      anchor: 0
+      scaling: 0
+      offsetX: 145
+      offsetY: 30
+      width: 100
+      height: 46
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: prof2
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: Profile 2
+      image: {fileID: 0}
+    - id: 24
+      name: btn-3
+      type: 4
+      zdepth: 0
+      anchor: 0
+      scaling: 0
+      offsetX: 260
+      offsetY: 30
+      width: 100
+      height: 47
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: prof3
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: Profile 3
+      image: {fileID: 0}
+    - id: 25
+      name: btn-1
+      type: 4
+      zdepth: 0
+      anchor: 0
+      scaling: 0
+      offsetX: 30
+      offsetY: 30
+      width: 100
+      height: 46
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: prof1
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: Profile 1
+      image: {fileID: 0}
+    - id: 26
+      name: Button-26
+      type: 4
+      zdepth: 0
+      anchor: 0
+      scaling: 0
+      offsetX: 31
+      offsetY: 90
+      width: 330
+      height: 46
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: DeleteAllProfiles
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: Clear all profiles
+      image: {fileID: 0}
+    editEles: []
+    toggleEles: []
+    boxEles: []
+    nextUIEleId: 31
+  - id: 1
+    name: Create profile
+    skin: {fileID: 11400000, guid: 8cedaa4f9f063524e96137b1a308d7b7, type: 2}
+    doClearBack: 1
+    backgroundColor: {r: .204044104, g: .238051474, b: .272058845, a: 1}
+    designWidth: 1024
+    designHeight: 768
+    labelEles:
+    - id: 10
+      name: label
+      type: 1
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: -118
+      offsetY: 1
+      width: 44
+      height: 100
+      visible: 1
+      enabled: 1
+      styleName: label
+      soundClip: {fileID: 0}
+      eventName: 
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      text: 'Name: '
+      showOutline: 0
+      showShadow: 0
+      outlineColor: {r: 0, g: 0, b: 0, a: 1}
+      shadowColor: {r: 0, g: 0, b: 0, a: 1}
+      outlineThickness: 2
+      shadowOffset: {x: 1, y: 1}
+    imageEles: []
+    movieEles: []
+    buttonEles:
+    - id: 8
+      name: createProfileBtn
+      type: 4
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: 79
+      offsetY: 34
+      width: 100
+      height: 46
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: createProfile
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: Save
+      image: {fileID: 0}
+    editEles:
+    - id: 9
+      name: profileName
+      type: 5
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: 29
+      offsetY: -36
+      width: 206
+      height: 46
+      visible: 1
+      enabled: 1
+      styleName: textfield
+      soundClip: {fileID: 0}
+      eventName: 
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      initText: 
+    toggleEles: []
+    boxEles:
+    - id: 7
+      name: Box-7
+      type: 7
+      zdepth: 1
+      anchor: 4
+      scaling: 0
+      offsetX: 0
+      offsetY: 0
+      width: 330
+      height: 140
+      visible: 1
+      enabled: 1
+      styleName: box
+      soundClip: {fileID: 0}
+      eventName: 
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+    nextUIEleId: 11
+  - id: 2
+    name: Main
+    skin: {fileID: 11400000, guid: 8cedaa4f9f063524e96137b1a308d7b7, type: 2}
+    doClearBack: 1
+    backgroundColor: {r: .204044104, g: .238051474, b: .272058845, a: 1}
+    designWidth: 1024
+    designHeight: 768
+    labelEles: []
+    imageEles: []
+    movieEles: []
+    buttonEles:
+    - id: 3
+      name: newGameBtn
+      type: 4
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: 1
+      offsetY: -122
+      width: 150
+      height: 42
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: newGame
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: New Game
+      image: {fileID: 0}
+    - id: 5
+      name: continueBtn
+      type: 4
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: 3
+      offsetY: -61
+      width: 152
+      height: 46
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: loadSlots
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: Load Game
+      image: {fileID: 0}
+    - id: 7
+      name: exitBtn
+      type: 4
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: 2
+      offsetY: 126
+      width: 152
+      height: 46
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: exitFromMain
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: Exit
+      image: {fileID: 0}
+    - id: 8
+      name: Button-8
+      type: 4
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: 2
+      offsetY: 2
+      width: 152
+      height: 46
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: showProfileScreen
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: To Profile Screen
+      image: {fileID: 0}
+    editEles: []
+    toggleEles: []
+    boxEles:
+    - id: 2
+      name: mainScreen
+      type: 7
+      zdepth: 1
+      anchor: 4
+      scaling: 0
+      offsetX: -1
+      offsetY: 0
+      width: 232
+      height: 314
+      visible: 1
+      enabled: 1
+      styleName: box
+      soundClip: {fileID: 0}
+      eventName: 
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+    nextUIEleId: 9
+  - id: 3
+    name: ExitFromMainConfirm
+    skin: {fileID: 11400000, guid: 8cedaa4f9f063524e96137b1a308d7b7, type: 2}
+    doClearBack: 1
+    backgroundColor: {r: .204044104, g: .238051474, b: .272058845, a: 1}
+    designWidth: 1024
+    designHeight: 768
+    labelEles:
+    - id: 1
+      name: label
+      type: 1
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: 13
+      offsetY: -24
+      width: 122
+      height: 26
+      visible: 1
+      enabled: 1
+      styleName: label
+      soundClip: {fileID: 0}
+      eventName: 
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      text: Are you sure?
+      showOutline: 0
+      showShadow: 0
+      outlineColor: {r: 0, g: 0, b: 0, a: 1}
+      shadowColor: {r: 0, g: 0, b: 0, a: 1}
+      outlineThickness: 2
+      shadowOffset: {x: 1, y: 1}
+    imageEles: []
+    movieEles: []
+    buttonEles:
+    - id: 2
+      name: yes
+      type: 4
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: -73
+      offsetY: 18
+      width: 100
+      height: 46
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: exitClick
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: Yes
+      image: {fileID: 0}
+    - id: 3
+      name: no
+      type: 4
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: 69
+      offsetY: 19
+      width: 100
+      height: 46
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: hideScreenExitFromMain
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: No
+      image: {fileID: 0}
+    editEles: []
+    toggleEles: []
+    boxEles:
+    - id: 0
+      name: Box-0
+      type: 7
+      zdepth: 1
+      anchor: 4
+      scaling: 0
+      offsetX: 0
+      offsetY: 0
+      width: 278
+      height: 106
+      visible: 1
+      enabled: 1
+      styleName: box
+      soundClip: {fileID: 0}
+      eventName: 
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+    nextUIEleId: 4
+  - id: 4
+    name: Load  Slots
+    skin: {fileID: 11400000, guid: 8cedaa4f9f063524e96137b1a308d7b7, type: 2}
+    doClearBack: 1
+    backgroundColor: {r: .204044104, g: .238051474, b: .272058845, a: 1}
+    designWidth: 1024
+    designHeight: 768
+    labelEles: []
+    imageEles: []
+    movieEles: []
+    buttonEles:
+    - id: 1
+      name: slot-1
+      type: 4
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: 0
+      offsetY: -112
+      width: 170
+      height: 46
+      visible: 1
+      enabled: 0
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: loadslot1
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: Slot 1
+      image: {fileID: 0}
+    - id: 2
+      name: slot-3
+      type: 4
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: 0
+      offsetY: 17
+      width: 170
+      height: 46
+      visible: 1
+      enabled: 0
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: loadslot3
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: Slot 3
+      image: {fileID: 0}
+    - id: 3
+      name: slot-2
+      type: 4
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: 0
+      offsetY: -49
+      width: 170
+      height: 46
+      visible: 1
+      enabled: 0
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: loadslot2
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: Slot 2
+      image: {fileID: 0}
+    - id: 4
+      name: backBtn
+      type: 4
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: 0
+      offsetY: 112
+      width: 170
+      height: 46
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: backToMain
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: Back To Menu
+      image: {fileID: 0}
+    editEles: []
+    toggleEles: []
+    boxEles:
+    - id: 0
+      name: Box-0
+      type: 7
+      zdepth: 1
+      anchor: 4
+      scaling: 0
+      offsetX: 0
+      offsetY: 0
+      width: 222
+      height: 306
+      visible: 1
+      enabled: 1
+      styleName: box
+      soundClip: {fileID: 0}
+      eventName: 
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+    nextUIEleId: 5
+  - id: 5
+    name: Save Screen
+    skin: {fileID: 11400000, guid: 8cedaa4f9f063524e96137b1a308d7b7, type: 2}
+    doClearBack: 0
+    backgroundColor: {r: .204044104, g: .238051474, b: .272058845, a: 1}
+    designWidth: 1024
+    designHeight: 768
+    labelEles: []
+    imageEles:
+    - id: 2
+      name: Image-2
+      type: 2
+      zdepth: 0
+      anchor: 8
+      scaling: 0
+      offsetX: -10
+      offsetY: -12
+      width: 32
+      height: 32
+      visible: 1
+      enabled: 1
+      styleName: 
+      soundClip: {fileID: 0}
+      eventName: 
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      texture: {fileID: 2800000, guid: b330e6e2851703d4a880021109f515a7, type: 3}
+    movieEles: []
+    buttonEles:
+    - id: 0
+      name: showGameMenu
+      type: 4
+      zdepth: 1
+      anchor: 8
+      scaling: 0
+      offsetX: -10
+      offsetY: -12
+      width: 32
+      height: 32
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: showGameMenu
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: Menu
+      image: {fileID: 0}
+    editEles: []
+    toggleEles: []
+    boxEles: []
+    nextUIEleId: 3
+  - id: 6
+    name: DeleteSavesConfirm
+    skin: {fileID: 11400000, guid: 8cedaa4f9f063524e96137b1a308d7b7, type: 2}
+    doClearBack: 1
+    backgroundColor: {r: .204044104, g: .238051474, b: .272058845, a: 1}
+    designWidth: 1024
+    designHeight: 768
+    labelEles:
+    - id: 1
+      name: Label-1
+      type: 1
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: 27
+      offsetY: -25
+      width: 316
+      height: 30
+      visible: 1
+      enabled: 1
+      styleName: label
+      soundClip: {fileID: 0}
+      eventName: 
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      text: All previous saves will be deleted, continue?
+      showOutline: 0
+      showShadow: 0
+      outlineColor: {r: 0, g: 0, b: 0, a: 1}
+      shadowColor: {r: 0, g: 0, b: 0, a: 1}
+      outlineThickness: 2
+      shadowOffset: {x: 1, y: 1}
+    imageEles: []
+    movieEles: []
+    buttonEles:
+    - id: 2
+      name: ok
+      type: 4
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: -81
+      offsetY: 20
+      width: 100
+      height: 46
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: startNewGame
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: OK
+      image: {fileID: 0}
+    - id: 3
+      name: Button-3
+      type: 4
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: 89
+      offsetY: 20
+      width: 100
+      height: 46
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: backToMain
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: Cancel
+      image: {fileID: 0}
+    editEles: []
+    toggleEles: []
+    boxEles:
+    - id: 0
+      name: Box-0
+      type: 7
+      zdepth: 1
+      anchor: 4
+      scaling: 0
+      offsetX: 0
+      offsetY: 0
+      width: 328
+      height: 100
+      visible: 1
+      enabled: 1
+      styleName: box
+      soundClip: {fileID: 0}
+      eventName: 
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+    nextUIEleId: 4
+  - id: 7
+    name: GameMenu
+    skin: {fileID: 11400000, guid: 8cedaa4f9f063524e96137b1a308d7b7, type: 2}
+    doClearBack: 0
+    backgroundColor: {r: .204044104, g: .238051474, b: .272058845, a: 1}
+    designWidth: 1024
+    designHeight: 768
+    labelEles: []
+    imageEles: []
+    movieEles: []
+    buttonEles:
+    - id: 1
+      name: slot-1
+      type: 4
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: 2
+      offsetY: -184
+      width: 210
+      height: 46
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: saveTo1
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: Save to slot 1
+      image: {fileID: 0}
+    - id: 2
+      name: slot-3
+      type: 4
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: 2
+      offsetY: -68
+      width: 210
+      height: 46
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: saveTo3
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: Save to slot 3
+      image: {fileID: 0}
+    - id: 3
+      name: slot-2
+      type: 4
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: 2
+      offsetY: -126
+      width: 210
+      height: 46
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: saveTo2
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: Save to slot 2
+      image: {fileID: 0}
+    - id: 4
+      name: Button-4
+      type: 4
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: 2
+      offsetY: -9
+      width: 210
+      height: 46
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: backToHub
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: Resume
+      image: {fileID: 0}
+    - id: 5
+      name: Button-5
+      type: 4
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: 2
+      offsetY: 171
+      width: 210
+      height: 46
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: exitFromGameMenu
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: Exit
+      image: {fileID: 0}
+    - id: 6
+      name: Button-6
+      type: 4
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: 2
+      offsetY: 52
+      width: 210
+      height: 46
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: showSettings
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: Settings
+      image: {fileID: 0}
+    - id: 7
+      name: Button-7
+      type: 4
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: 2
+      offsetY: 115
+      width: 210
+      height: 46
+      visible: 0
+      enabled: 0
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: showProfileScreen
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: To Profile Screen
+      image: {fileID: 0}
+    editEles: []
+    toggleEles: []
+    boxEles:
+    - id: 0
+      name: Box-0
+      type: 7
+      zdepth: 1
+      anchor: 4
+      scaling: 0
+      offsetX: 1
+      offsetY: 0
+      width: 254
+      height: 478
+      visible: 1
+      enabled: 1
+      styleName: box
+      soundClip: {fileID: 0}
+      eventName: 
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+    nextUIEleId: 8
+  - id: 8
+    name: ToMainConfirm
+    skin: {fileID: 11400000, guid: 8cedaa4f9f063524e96137b1a308d7b7, type: 2}
+    doClearBack: 0
+    backgroundColor: {r: .204044104, g: .238051474, b: .272058845, a: 1}
+    designWidth: 1024
+    designHeight: 768
+    labelEles:
+    - id: 1
+      name: Label-1
+      type: 1
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: 25
+      offsetY: -40
+      width: 118
+      height: 28
+      visible: 1
+      enabled: 1
+      styleName: label
+      soundClip: {fileID: 0}
+      eventName: 
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      text: Back To Main?
+      showOutline: 0
+      showShadow: 0
+      outlineColor: {r: 0, g: 0, b: 0, a: 1}
+      shadowColor: {r: 0, g: 0, b: 0, a: 1}
+      outlineThickness: 2
+      shadowOffset: {x: 1, y: 1}
+    imageEles: []
+    movieEles: []
+    buttonEles:
+    - id: 2
+      name: Button-2
+      type: 4
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: -49
+      offsetY: 4
+      width: 100
+      height: 46
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: backToMain
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: Yes
+      image: {fileID: 0}
+    - id: 3
+      name: Button-3
+      type: 4
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: 76
+      offsetY: 4
+      width: 100
+      height: 46
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: hideScreenBackToMain
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: No
+      image: {fileID: 0}
+    editEles: []
+    toggleEles: []
+    boxEles:
+    - id: 0
+      name: Box-0
+      type: 7
+      zdepth: 1
+      anchor: 4
+      scaling: 0
+      offsetX: 12
+      offsetY: -8
+      width: 258
+      height: 108
+      visible: 1
+      enabled: 1
+      styleName: box
+      soundClip: {fileID: 0}
+      eventName: 
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+    nextUIEleId: 4
+  - id: 9
+    name: ExitFromGameMenuConfirm
+    skin: {fileID: 11400000, guid: 8cedaa4f9f063524e96137b1a308d7b7, type: 2}
+    doClearBack: 0
+    backgroundColor: {r: .204044104, g: .238051474, b: .272058845, a: 1}
+    designWidth: 1024
+    designHeight: 768
+    labelEles:
+    - id: 1
+      name: Label-1
+      type: 1
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: 12
+      offsetY: -34
+      width: 116
+      height: 26
+      visible: 1
+      enabled: 1
+      styleName: label
+      soundClip: {fileID: 0}
+      eventName: 
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      text: Are you sure?
+      showOutline: 0
+      showShadow: 0
+      outlineColor: {r: 0, g: 0, b: 0, a: 1}
+      shadowColor: {r: 0, g: 0, b: 0, a: 1}
+      outlineThickness: 2
+      shadowOffset: {x: 1, y: 1}
+    imageEles: []
+    movieEles: []
+    buttonEles:
+    - id: 3
+      name: Button-3
+      type: 4
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: -72
+      offsetY: 16
+      width: 100
+      height: 46
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: exitClick
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: Yes
+      image: {fileID: 0}
+    - id: 4
+      name: Button-4
+      type: 4
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: 71
+      offsetY: 16
+      width: 100
+      height: 46
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: hideScreenExitFromGameMenu
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: No
+      image: {fileID: 0}
+    editEles: []
+    toggleEles: []
+    boxEles:
+    - id: 0
+      name: Box-0
+      type: 7
+      zdepth: 1
+      anchor: 4
+      scaling: 0
+      offsetX: 1
+      offsetY: 0
+      width: 280
+      height: 110
+      visible: 1
+      enabled: 1
+      styleName: box
+      soundClip: {fileID: 0}
+      eventName: 
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+    nextUIEleId: 5
+  - id: 10
+    name: Settings
+    skin: {fileID: 11400000, guid: 8cedaa4f9f063524e96137b1a308d7b7, type: 2}
+    doClearBack: 1
+    backgroundColor: {r: .204044104, g: .238051474, b: .272058845, a: 1}
+    designWidth: 1024
+    designHeight: 768
+    labelEles:
+    - id: 3
+      name: resolution
+      type: 1
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: 45
+      offsetY: 78
+      width: 74
+      height: 28
+      visible: 1
+      enabled: 1
+      styleName: label
+      soundClip: {fileID: 0}
+      eventName: 
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      text: Resolution
+      showOutline: 0
+      showShadow: 0
+      outlineColor: {r: 0, g: 0, b: 0, a: 1}
+      shadowColor: {r: 0, g: 0, b: 0, a: 1}
+      outlineThickness: 2
+      shadowOffset: {x: 1, y: 1}
+    - id: 4
+      name: music
+      type: 1
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: 40
+      offsetY: -146
+      width: 44
+      height: 28
+      visible: 1
+      enabled: 1
+      styleName: label
+      soundClip: {fileID: 0}
+      eventName: 
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      text: Music
+      showOutline: 0
+      showShadow: 0
+      outlineColor: {r: 0, g: 0, b: 0, a: 1}
+      shadowColor: {r: 0, g: 0, b: 0, a: 1}
+      outlineThickness: 2
+      shadowOffset: {x: 1, y: 1}
+    - id: 5
+      name: sound
+      type: 1
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: 40
+      offsetY: -79
+      width: 50
+      height: 36
+      visible: 1
+      enabled: 1
+      styleName: label
+      soundClip: {fileID: 0}
+      eventName: 
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      text: Sound
+      showOutline: 0
+      showShadow: 0
+      outlineColor: {r: 0, g: 0, b: 0, a: 1}
+      shadowColor: {r: 0, g: 0, b: 0, a: 1}
+      outlineThickness: 2
+      shadowOffset: {x: 1, y: 1}
+    - id: 6
+      name: gfx
+      type: 1
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: 43
+      offsetY: -21
+      width: 74
+      height: 28
+      visible: 1
+      enabled: 1
+      styleName: label
+      soundClip: {fileID: 0}
+      eventName: 
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      text: Graphic
+      showOutline: 0
+      showShadow: 0
+      outlineColor: {r: 0, g: 0, b: 0, a: 1}
+      shadowColor: {r: 0, g: 0, b: 0, a: 1}
+      outlineThickness: 2
+      shadowOffset: {x: 1, y: 1}
+    - id: 19
+      name: Label-19
+      type: 1
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: -60
+      offsetY: 78
+      width: 82
+      height: 30
+      visible: 1
+      enabled: 1
+      styleName: label
+      soundClip: {fileID: 0}
+      eventName: 
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      text: Resolution
+      showOutline: 0
+      showShadow: 0
+      outlineColor: {r: 0, g: 0, b: 0, a: 1}
+      shadowColor: {r: 0, g: 0, b: 0, a: 1}
+      outlineThickness: 2
+      shadowOffset: {x: 1, y: 1}
+    - id: 20
+      name: Label-20
+      type: 1
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: -60
+      offsetY: -145
+      width: 82
+      height: 30
+      visible: 1
+      enabled: 1
+      styleName: label
+      soundClip: {fileID: 0}
+      eventName: 
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      text: Music
+      showOutline: 0
+      showShadow: 0
+      outlineColor: {r: 0, g: 0, b: 0, a: 1}
+      shadowColor: {r: 0, g: 0, b: 0, a: 1}
+      outlineThickness: 2
+      shadowOffset: {x: 1, y: 1}
+    - id: 21
+      name: Label-21
+      type: 1
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: -60
+      offsetY: -81
+      width: 82
+      height: 30
+      visible: 1
+      enabled: 1
+      styleName: label
+      soundClip: {fileID: 0}
+      eventName: 
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      text: Sound
+      showOutline: 0
+      showShadow: 0
+      outlineColor: {r: 0, g: 0, b: 0, a: 1}
+      shadowColor: {r: 0, g: 0, b: 0, a: 1}
+      outlineThickness: 2
+      shadowOffset: {x: 1, y: 1}
+    - id: 22
+      name: Label-22
+      type: 1
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: -60
+      offsetY: -20
+      width: 82
+      height: 30
+      visible: 1
+      enabled: 1
+      styleName: label
+      soundClip: {fileID: 0}
+      eventName: 
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      text: Graphic
+      showOutline: 0
+      showShadow: 0
+      outlineColor: {r: 0, g: 0, b: 0, a: 1}
+      shadowColor: {r: 0, g: 0, b: 0, a: 1}
+      outlineThickness: 2
+      shadowOffset: {x: 1, y: 1}
+    - id: 25
+      name: Label-25
+      type: 1
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: 23
+      offsetY: -186
+      width: 292
+      height: 38
+      visible: 1
+      enabled: 1
+      styleName: label
+      soundClip: {fileID: 0}
+      eventName: 
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      text: "             In web for apply changes \n       you need to be in full
+        screen mode"
+      showOutline: 0
+      showShadow: 0
+      outlineColor: {r: 0, g: 0, b: 0, a: 1}
+      shadowColor: {r: 0, g: 0, b: 0, a: 1}
+      outlineThickness: 2
+      shadowOffset: {x: 1, y: 1}
+    imageEles: []
+    movieEles: []
+    buttonEles:
+    - id: 9
+      name: Button-9
+      type: 4
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: 94
+      offsetY: -146
+      width: 28
+      height: 28
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: changeMusic
+      eventParam1: 5
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: '>'
+      image: {fileID: 0}
+    - id: 10
+      name: Button-10
+      type: 4
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: -10
+      offsetY: -83
+      width: 28
+      height: 28
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: changeSound
+      eventParam1: -5
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: <
+      image: {fileID: 0}
+    - id: 11
+      name: Button-11
+      type: 4
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: -10
+      offsetY: -147
+      width: 28
+      height: 28
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: changeMusic
+      eventParam1: -5
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: <
+      image: {fileID: 0}
+    - id: 12
+      name: Button-12
+      type: 4
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: 94
+      offsetY: -22
+      width: 28
+      height: 28
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: changeGfx
+      eventParam1: 2
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: '>'
+      image: {fileID: 0}
+    - id: 13
+      name: Button-13
+      type: 4
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: 94
+      offsetY: -82
+      width: 28
+      height: 28
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: changeSound
+      eventParam1: 5
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: '>'
+      image: {fileID: 0}
+    - id: 14
+      name: Button-14
+      type: 4
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: -10
+      offsetY: -22
+      width: 28
+      height: 26
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: changeGfx
+      eventParam1: 1
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: <
+      image: {fileID: 0}
+    - id: 15
+      name: Button-15
+      type: 4
+      zdepth: 3
+      anchor: 4
+      scaling: 0
+      offsetX: 94
+      offsetY: 80
+      width: 28
+      height: 28
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: changeRes
+      eventParam1: 2
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: '>'
+      image: {fileID: 0}
+    - id: 16
+      name: Button-16
+      type: 4
+      zdepth: 3
+      anchor: 4
+      scaling: 0
+      offsetX: -10
+      offsetY: 78
+      width: 28
+      height: 28
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: changeRes
+      eventParam1: 1
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: <
+      image: {fileID: 0}
+    - id: 17
+      name: Button-17
+      type: 4
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: -75
+      offsetY: 173
+      width: 108
+      height: 46
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: saveSets
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: Save sets
+      image: {fileID: 0}
+    - id: 18
+      name: Button-18
+      type: 4
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: 63
+      offsetY: 173
+      width: 134
+      height: 46
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: applyRes
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: Apply resolution
+      image: {fileID: 0}
+    editEles: []
+    toggleEles:
+    - id: 7
+      name: fullscreen
+      type: 6
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: 53
+      offsetY: 34
+      width: 100
+      height: 28
+      visible: 1
+      enabled: 1
+      styleName: toggle
+      soundClip: {fileID: 0}
+      eventName: goFullscreen
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: Fullscreen
+      initState: 0
+    boxEles:
+    - id: 0
+      name: Box-0
+      type: 7
+      zdepth: 8
+      anchor: 4
+      scaling: 0
+      offsetX: 0
+      offsetY: 0
+      width: 282
+      height: 412
+      visible: 1
+      enabled: 1
+      styleName: box
+      soundClip: {fileID: 0}
+      eventName: 
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+    nextUIEleId: 27
+  - id: 11
+    name: PlayerSelect
+    skin: {fileID: 11400000, guid: 8cedaa4f9f063524e96137b1a308d7b7, type: 2}
+    doClearBack: 0
+    backgroundColor: {r: .204044104, g: .238051474, b: .272058845, a: 1}
+    designWidth: 1024
+    designHeight: 768
+    labelEles:
+    - id: 1
+      name: male
+      type: 1
+      zdepth: 0
+      anchor: 3
+      scaling: 0
+      offsetX: 70
+      offsetY: -127
+      width: 52
+      height: 38
+      visible: 1
+      enabled: 1
+      styleName: label
+      soundClip: {fileID: 0}
+      eventName: 
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      text: Male
+      showOutline: 0
+      showShadow: 0
+      outlineColor: {r: 0, g: 0, b: 0, a: 1}
+      shadowColor: {r: 0, g: 0, b: 0, a: 1}
+      outlineThickness: 2
+      shadowOffset: {x: 1, y: 1}
+    - id: 3
+      name: hc
+      type: 1
+      zdepth: 0
+      anchor: 3
+      scaling: 0
+      offsetX: 112
+      offsetY: -21
+      width: 27
+      height: 26
+      visible: 1
+      enabled: 1
+      styleName: label
+      soundClip: {fileID: 0}
+      eventName: 
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      text: 
+      showOutline: 0
+      showShadow: 0
+      outlineColor: {r: 0, g: 0, b: 0, a: 1}
+      shadowColor: {r: 0, g: 0, b: 0, a: 1}
+      outlineThickness: 2
+      shadowOffset: {x: 1, y: 1}
+    - id: 4
+      name: Label-4
+      type: 1
+      zdepth: 0
+      anchor: 3
+      scaling: 0
+      offsetX: 70
+      offsetY: -77
+      width: 50
+      height: 26
+      visible: 1
+      enabled: 1
+      styleName: label
+      soundClip: {fileID: 0}
+      eventName: 
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      text: Face
+      showOutline: 0
+      showShadow: 0
+      outlineColor: {r: 0, g: 0, b: 0, a: 1}
+      shadowColor: {r: 0, g: 0, b: 0, a: 1}
+      outlineThickness: 2
+      shadowOffset: {x: 1, y: 1}
+    - id: 5
+      name: Label-5
+      type: 1
+      zdepth: 0
+      anchor: 3
+      scaling: 0
+      offsetX: 70
+      offsetY: -25
+      width: 41
+      height: 24
+      visible: 1
+      enabled: 1
+      styleName: label
+      soundClip: {fileID: 0}
+      eventName: 
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      text: Hair
+      showOutline: 0
+      showShadow: 0
+      outlineColor: {r: 0, g: 0, b: 0, a: 1}
+      shadowColor: {r: 0, g: 0, b: 0, a: 1}
+      outlineThickness: 2
+      shadowOffset: {x: 1, y: 1}
+    - id: 6
+      name: hairColor
+      type: 1
+      zdepth: 0
+      anchor: 3
+      scaling: 0
+      offsetX: 72
+      offsetY: 35
+      width: 61
+      height: 26
+      visible: 1
+      enabled: 1
+      styleName: label
+      soundClip: {fileID: 0}
+      eventName: 
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      text: Default
+      showOutline: 0
+      showShadow: 0
+      outlineColor: {r: 0, g: 0, b: 0, a: 1}
+      shadowColor: {r: 0, g: 0, b: 0, a: 1}
+      outlineThickness: 2
+      shadowOffset: {x: 1, y: 1}
+    - id: 7
+      name: fc
+      type: 1
+      zdepth: 0
+      anchor: 3
+      scaling: 0
+      offsetX: 112
+      offsetY: -73
+      width: 28
+      height: 26
+      visible: 1
+      enabled: 1
+      styleName: label
+      soundClip: {fileID: 0}
+      eventName: 
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      text: 
+      showOutline: 0
+      showShadow: 0
+      outlineColor: {r: 0, g: 0, b: 0, a: 1}
+      shadowColor: {r: 0, g: 0, b: 0, a: 1}
+      outlineThickness: 2
+      shadowOffset: {x: 1, y: 1}
+    - id: 8
+      name: name
+      type: 1
+      zdepth: 0
+      anchor: 3
+      scaling: 0
+      offsetX: 70
+      offsetY: 76
+      width: 44
+      height: 28
+      visible: 1
+      enabled: 1
+      styleName: label
+      soundClip: {fileID: 0}
+      eventName: 
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      text: Name
+      showOutline: 0
+      showShadow: 0
+      outlineColor: {r: 0, g: 0, b: 0, a: 1}
+      shadowColor: {r: 0, g: 0, b: 0, a: 1}
+      outlineThickness: 2
+      shadowOffset: {x: 1, y: 1}
+    - id: 20
+      name: Label-20
+      type: 1
+      zdepth: 0
+      anchor: 3
+      scaling: 0
+      offsetX: 70
+      offsetY: 18
+      width: 83
+      height: 27
+      visible: 1
+      enabled: 1
+      styleName: label
+      soundClip: {fileID: 0}
+      eventName: 
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      text: hair color
+      showOutline: 0
+      showShadow: 0
+      outlineColor: {r: 0, g: 0, b: 0, a: 1}
+      shadowColor: {r: 0, g: 0, b: 0, a: 1}
+      outlineThickness: 2
+      shadowOffset: {x: 1, y: 1}
+    imageEles: []
+    movieEles: []
+    buttonEles:
+    - id: 10
+      name: genderArrowL
+      type: 4
+      zdepth: 0
+      anchor: 3
+      scaling: 0
+      offsetX: 140
+      offsetY: -133
+      width: 25
+      height: 25
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: changeGen
+      eventParam1: 1
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: <
+      image: {fileID: 0}
+    - id: 11
+      name: hairArrowL
+      type: 4
+      zdepth: 0
+      anchor: 3
+      scaling: 0
+      offsetX: 140
+      offsetY: -26
+      width: 25
+      height: 25
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: changeHair
+      eventParam1: -1
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: <
+      image: {fileID: 0}
+    - id: 12
+      name: faceArrowL
+      type: 4
+      zdepth: 0
+      anchor: 3
+      scaling: 0
+      offsetX: 140
+      offsetY: -79
+      width: 25
+      height: 25
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: changeFace
+      eventParam1: -1
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: <
+      image: {fileID: 0}
+    - id: 13
+      name: genderArrowR
+      type: 4
+      zdepth: 0
+      anchor: 3
+      scaling: 0
+      offsetX: 190
+      offsetY: -133
+      width: 25
+      height: 25
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: changeGen
+      eventParam1: 0
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: '>'
+      image: {fileID: 0}
+    - id: 14
+      name: hairColorArrowL
+      type: 4
+      zdepth: 0
+      anchor: 3
+      scaling: 0
+      offsetX: 140
+      offsetY: 23
+      width: 25
+      height: 25
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: changeHairColor
+      eventParam1: -1
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: <
+      image: {fileID: 0}
+    - id: 15
+      name: hairColorArrowR
+      type: 4
+      zdepth: 0
+      anchor: 3
+      scaling: 0
+      offsetX: 190
+      offsetY: 23
+      width: 25
+      height: 25
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: changeHairColor
+      eventParam1: 1
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: '>'
+      image: {fileID: 0}
+    - id: 16
+      name: faceArrowR
+      type: 4
+      zdepth: 0
+      anchor: 3
+      scaling: 0
+      offsetX: 190
+      offsetY: -79
+      width: 25
+      height: 25
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: changeFace
+      eventParam1: 1
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: '>'
+      image: {fileID: 0}
+    - id: 17
+      name: hairArrowR
+      type: 4
+      zdepth: 0
+      anchor: 3
+      scaling: 0
+      offsetX: 190
+      offsetY: -26
+      width: 25
+      height: 25
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: changeHair
+      eventParam1: 1
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: '>'
+      image: {fileID: 0}
+    - id: 18
+      name: cancelBtn
+      type: 4
+      zdepth: 0
+      anchor: 3
+      scaling: 0
+      offsetX: 163
+      offsetY: 131
+      width: 70
+      height: 40
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: showProfileScreen
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: Cancel
+      image: {fileID: 0}
+    - id: 19
+      name: startBtn
+      type: 4
+      zdepth: 0
+      anchor: 3
+      scaling: 0
+      offsetX: 54
+      offsetY: 131
+      width: 74
+      height: 40
+      visible: 1
+      enabled: 0
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: startNewGameFinally
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: Start
+      image: {fileID: 0}
+    editEles:
+    - id: 9
+      name: profileName
+      type: 5
+      zdepth: 0
+      anchor: 3
+      scaling: 0
+      offsetX: 114
+      offsetY: 73
+      width: 103
+      height: 28
+      visible: 1
+      enabled: 1
+      styleName: textfield
+      soundClip: {fileID: 0}
+      eventName: 
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      initText: 
+    toggleEles: []
+    boxEles:
+    - id: 0
+      name: Box-0
+      type: 7
+      zdepth: 1
+      anchor: 3
+      scaling: 0
+      offsetX: 40
+      offsetY: 0
+      width: 208
+      height: 334
+      visible: 1
+      enabled: 1
+      styleName: box
+      soundClip: {fileID: 0}
+      eventName: 
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+    nextUIEleId: 22
+  - id: 12
+    name: Dialogue
+    skin: {fileID: 11400000, guid: 8cedaa4f9f063524e96137b1a308d7b7, type: 2}
+    doClearBack: 0
+    backgroundColor: {r: .204044104, g: .238051474, b: .272058845, a: 1}
+    designWidth: 1024
+    designHeight: 768
+    labelEles:
+    - id: 1
+      name: text
+      type: 1
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: 0
+      offsetY: -96
+      width: 166
+      height: 122
+      visible: 1
+      enabled: 1
+      styleName: DialogueLabel
+      soundClip: {fileID: 0}
+      eventName: 
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      text: Some dialogue text that will be here...
+      showOutline: 0
+      showShadow: 0
+      outlineColor: {r: 0, g: 0, b: 0, a: 1}
+      shadowColor: {r: 0, g: 0, b: 0, a: 1}
+      outlineThickness: 2
+      shadowOffset: {x: 1, y: 1}
+    imageEles: []
+    movieEles: []
+    buttonEles:
+    - id: 2
+      name: btn-3
+      type: 4
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: 0
+      offsetY: 2
+      width: 162
+      height: 46
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: DialogueResponce
+      eventParam1: 2
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: btn-3
+      image: {fileID: 0}
+    - id: 3
+      name: btn-1
+      type: 4
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: 0
+      offsetY: 120
+      width: 162
+      height: 46
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: DialogueResponce
+      eventParam1: 0
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: btn-1
+      image: {fileID: 0}
+    - id: 4
+      name: btn-2
+      type: 4
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: 0
+      offsetY: 60
+      width: 162
+      height: 46
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: DialogueResponce
+      eventParam1: 1
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: btn-2
+      image: {fileID: 0}
+    editEles: []
+    toggleEles: []
+    boxEles:
+    - id: 0
+      name: Box-0
+      type: 7
+      zdepth: 1
+      anchor: 4
+      scaling: 0
+      offsetX: 0
+      offsetY: 0
+      width: 198
+      height: 330
+      visible: 1
+      enabled: 1
+      styleName: box
+      soundClip: {fileID: 0}
+      eventName: 
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+    nextUIEleId: 5
+  - id: 13
+    name: HpMpExp
+    skin: {fileID: 0}
+    doClearBack: 0
+    backgroundColor: {r: .204044104, g: .238051474, b: .272058845, a: 1}
+    designWidth: 1024
+    designHeight: 768
+    labelEles: []
+    imageEles:
+    - id: 1
+      name: hpImg
+      type: 2
+      zdepth: 0
+      anchor: 0
+      scaling: 0
+      offsetX: 35
+      offsetY: 35
+      width: 150
+      height: 15
+      visible: 1
+      enabled: 1
+      styleName: 
+      soundClip: {fileID: 0}
+      eventName: 
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      texture: {fileID: 2800000, guid: 4354997c387bd784e945b3cfbea53799, type: 3}
+    - id: 2
+      name: mpImg
+      type: 2
+      zdepth: 0
+      anchor: 0
+      scaling: 0
+      offsetX: 35
+      offsetY: 55
+      width: 150
+      height: 15
+      visible: 1
+      enabled: 1
+      styleName: 
+      soundClip: {fileID: 0}
+      eventName: 
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      texture: {fileID: 2800000, guid: b48698f16e73c2d47b08c21ab25327e4, type: 3}
+    - id: 3
+      name: expImg
+      type: 2
+      zdepth: 0
+      anchor: 0
+      scaling: 0
+      offsetX: 35
+      offsetY: 75
+      width: 0
+      height: 15
+      visible: 1
+      enabled: 1
+      styleName: 
+      soundClip: {fileID: 0}
+      eventName: 
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      texture: {fileID: 2800000, guid: debfcab7553ee1d429128db964b49c68, type: 3}
+    movieEles: []
+    buttonEles: []
+    editEles: []
+    toggleEles: []
+    boxEles:
+    - id: 0
+      name: Box-0
+      type: 7
+      zdepth: 1
+      anchor: 0
+      scaling: 0
+      offsetX: 30
+      offsetY: 30
+      width: 160
+      height: 70
+      visible: 1
+      enabled: 1
+      styleName: box
+      soundClip: {fileID: 0}
+      eventName: 
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+    nextUIEleId: 4
+  - id: 14
+    name: Test
+    skin: {fileID: 11400000, guid: 8cedaa4f9f063524e96137b1a308d7b7, type: 2}
+    doClearBack: 0
+    backgroundColor: {r: .204044104, g: .238051474, b: .272058845, a: 1}
+    designWidth: 1024
+    designHeight: 768
+    labelEles:
+    - id: 2
+      name: resolution
+      type: 1
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: -66
+      offsetY: -69
+      width: 100
+      height: 33
+      visible: 1
+      enabled: 1
+      styleName: label
+      soundClip: {fileID: 0}
+      eventName: 
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      text: 
+      showOutline: 0
+      showShadow: 0
+      outlineColor: {r: 0, g: 0, b: 0, a: 1}
+      shadowColor: {r: 0, g: 0, b: 0, a: 1}
+      outlineThickness: 2
+      shadowOffset: {x: 1, y: 1}
+    imageEles: []
+    movieEles: []
+    buttonEles:
+    - id: 0
+      name: Button-0
+      type: 4
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: 1
+      offsetY: 0
+      width: 100
+      height: 100
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: changeResolution
+      eventParam1: 2
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: button
+      image: {fileID: 0}
+    - id: 1
+      name: Button-1
+      type: 4
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: -125
+      offsetY: 1
+      width: 100
+      height: 100
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: changeResolution
+      eventParam1: 1
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: button
+      image: {fileID: 0}
+    - id: 3
+      name: Button-3
+      type: 4
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: -118
+      offsetY: 118
+      width: 100
+      height: 100
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: saveResolution
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: ok
+      image: {fileID: 0}
+    editEles: []
+    toggleEles: []
+    boxEles: []
+    nextUIEleId: 4
+  - id: 15
+    name: GameOver
+    skin: {fileID: 11400000, guid: 8cedaa4f9f063524e96137b1a308d7b7, type: 2}
+    doClearBack: 0
+    backgroundColor: {r: .204044104, g: .238051474, b: .272058845, a: 1}
+    designWidth: 1024
+    designHeight: 768
+    labelEles:
+    - id: 1
+      name: Label-1
+      type: 1
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: 9
+      offsetY: -29
+      width: 100
+      height: 46
+      visible: 1
+      enabled: 1
+      styleName: label
+      soundClip: {fileID: 0}
+      eventName: 
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      text: Game Over
+      showOutline: 0
+      showShadow: 0
+      outlineColor: {r: 0, g: 0, b: 0, a: 1}
+      shadowColor: {r: 0, g: 0, b: 0, a: 1}
+      outlineThickness: 2
+      shadowOffset: {x: 1, y: 1}
+    imageEles: []
+    movieEles: []
+    buttonEles:
+    - id: 2
+      name: Button-2
+      type: 4
+      zdepth: 0
+      anchor: 4
+      scaling: 0
+      offsetX: -5
+      offsetY: 9
+      width: 100
+      height: 46
+      visible: 1
+      enabled: 1
+      styleName: button
+      soundClip: {fileID: 0}
+      eventName: gameOver
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+      label: OKAY  ;-(
+      image: {fileID: 0}
+    editEles: []
+    toggleEles: []
+    boxEles:
+    - id: 0
+      name: Box-0
+      type: 7
+      zdepth: 1
+      anchor: 4
+      scaling: 0
+      offsetX: 0
+      offsetY: 0
+      width: 222
+      height: 126
+      visible: 1
+      enabled: 1
+      styleName: box
+      soundClip: {fileID: 0}
+      eventName: 
+      eventParam1: 
+      eventParam2: 
+      eventParam3: 
+      langEdTouched: 0
+    nextUIEleId: 3
+  nextScreenId: 16

@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400002}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: c04339892a0b483aa0fc7df9f82e86ff
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2062146570, guid: 357936f588f68fb4e8f1d038fdfe02c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id:
+    savedIdent: c04339892a0b483aa0fc7df9f82e86ff
+  def:
+    ident: Warrior
+    screenName: Warrior
+    shortName: 
+    meta: 
+    description: 
+    images:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  maxLevel: 90
+  maxXP: 190000
+  xpCurve:
+    yMin: 0
+    yMax: 190000
+    values: 00000000170000005f000000d70000007f010000570200005f03000097040000ff050000960700005e090000560b00007e0d0000d50f00005d12000015150000fc170000141b00005b1e0000d32100007a25000052290000592d000091310000f83500008f3a0000573f00004e44000075490000cc4e0000545400000b5a0000f25f000009660000506c0000c77200006e790000468000004d870000848e0000ea950000819d000048a500003fad000066b50000bdbd000044c60000face0000e1d70000f8e000003fea0000b5f300005cfd00003307010039110100701b0100d62501006d300100333b01002a46010050510100a75c01002d680100e3730100ca7f0100e08b0100269801009da4010043b1010019be01001fcb010055d80100bbe5010052f30100180102000e0f0200341d02008a2b0200103a0200c6480200ab570200c1660200077602007d85020023950200f9a40200feb4020034c502009ad5020030e60200
+    easingType: 3
+    acceleration: 1
+  attributesInitData:
+  - id:
+      savedIdent: 8617a7828f584c149d63f51571f60da8
+    baseValue: 150
+    maxValue: 99999
+    canGrow: 1
+    growthCurve:
+      yMin: 150
+      yMax: 99999
+      values: 96000000a5000000d4000000210100008e0100001a020000c50200008f030000770400007f050000a5060000e90700004d090000ce0a00006e0c00002c0e000008100000021200001a1400004f160000a2180000121b00009e1d0000482000000e230000f1250000ef2800000a2c0000402f000091320000fe35000085390000273d0000e4400000ba440000aa480000b34c0000d65000001155000064590000d05d000053620000ed6600009e6b00006670000044750000387a0000427f00006084000093890000da8e000035940000a3990000249f0000b7a400005daa000014b00000dcb50000b5bb00009ec1000097c700009fcd0000b6d30000dbd900000de000004de600009aec0000f3f2000058f90000c8ff000043060100c80c010057130100ef1901009020010039270100e92d0100a13401005f3b010023420100ed480100bb4f01008e560100655d01003f6401001b6b0100fa710100db780100bc7f01009f860100
+      easingType: 2
+      acceleration: 1
+    alsoUpdateConsumable: 1
+  - id:
+      savedIdent: 623822df9c584dd794ed26b8f916f972
+    baseValue: 150
+    maxValue: 99999
+    canGrow: 1
+    growthCurve:
+      yMin: 150
+      yMax: 99999
+      values: 96000000a5000000d4000000210100008e0100001a020000c50200008f030000770400007f050000a5060000e90700004d090000ce0a00006e0c00002c0e000008100000021200001a1400004f160000a2180000121b00009e1d0000482000000e230000f1250000ef2800000a2c0000402f000091320000fe35000085390000273d0000e4400000ba440000aa480000b34c0000d65000001155000064590000d05d000053620000ed6600009e6b00006670000044750000387a0000427f00006084000093890000da8e000035940000a3990000249f0000b7a400005daa000014b00000dcb50000b5bb00009ec1000097c700009fcd0000b6d30000dbd900000de000004de600009aec0000f3f2000058f90000c8ff000043060100c80c010057130100ef1901009020010039270100e92d0100a13401005f3b010023420100ed480100bb4f01008e560100655d01003f6401001b6b0100fa710100db780100bc7f01009f860100
+      easingType: 2
+      acceleration: 1
+    alsoUpdateConsumable: 1
+  - id:
+      savedIdent: c2c236f4d4024172af1640c76022a008
+    baseValue: 5
+    maxValue: 999
+    canGrow: 0
+    growthCurve:
+      yMin: 0
+      yMax: 0
+      values: 
+      easingType: 1
+      acceleration: 1
+    alsoUpdateConsumable: 1
+  blox: {fileID: 11400002}
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 677389920, guid: ee437a4da0b2668478cfbed61746a8ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plyBloxGlobalPrefab: {fileID: 100000, guid: 3e6e2cecfcbe53440bd5ba465c125f02, type: 2}
+  states: []
+  vars: []
+  uniqueIdOnObject: -1
+  NeedObjectActive: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

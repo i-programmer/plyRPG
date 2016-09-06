@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  tags:
+  - Floor
+  - grass
+  - 
+  - Wood
+  - Black
+  - Terrain
+  - WhiteFloor
+  - 
+  - FxTemporaire
+  - 
+  - EquipSlot Feet
+  - EquipSlot Head
+  - EquipSlot Body
+  - EquipSlot WeaponHand
+  - 
+  - Drag and Drop Root
+  - GirlNPC
+  - EnemyNPC
+  - 
+  - RPGNGUI
+  - MobInfoExitCross
+  - NavArrow
+  - 
+  - 
+  - 
+  - MobInfoNGUI
+  - 
+  - Fire
+  - 
+  - 
+  - EquipSlot SwordSlot
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - EquipSlot_WeaponHand
+  - 
+  Builtin Layer 0: Default
+  Builtin Layer 1: TransparentFX
+  Builtin Layer 2: Ignore Raycast
+  Builtin Layer 3: 
+  Builtin Layer 4: Water
+  Builtin Layer 5: UI
+  Builtin Layer 6: 
+  Builtin Layer 7: 
+  User Layer 8: Floor
+  User Layer 9: Wall
+  User Layer 10: Static
+  User Layer 11: 
+  User Layer 12: 
+  User Layer 13: 
+  User Layer 14: 
+  User Layer 15: 
+  User Layer 16: 
+  User Layer 17: 
+  User Layer 18: Player
+  User Layer 19: NPC
+  User Layer 20: plyObject
+  User Layer 21: plyItem
+  User Layer 22: plyTrigger
+  User Layer 23: NGUI
+  User Layer 24: EnergyBar
+  User Layer 25: 
+  User Layer 26: Sky
+  User Layer 27: Minimap
+  User Layer 28: mapsystem
+  User Layer 29: mobInfo
+  User Layer 30: 
+  User Layer 31: 
+  m_SortingLayers:
+  - name: Default
+    userID: 0
+    uniqueID: 0
+    locked: 0

@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1444503799, guid: 357936f588f68fb4e8f1d038fdfe02c7, type: 3}
+  m_Name: attributes
+  m_EditorClassIdentifier: 
+  attributes:
+  - id:
+      savedIdent: 8617a7828f584c149d63f51571f60da8
+    def:
+      ident: HP
+      screenName: HP
+      shortName: 
+      meta: 
+      description: 
+      images:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id:
+      savedIdent: 623822df9c584dd794ed26b8f916f972
+    def:
+      ident: MP
+      screenName: MP
+      shortName: 
+      meta: 
+      description: 
+      images:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id:
+      savedIdent: c2c236f4d4024172af1640c76022a008
+    def:
+      ident: EXP
+      screenName: EXP
+      shortName: 
+      meta: 
+      description: 
+      images:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  hpAttribId:
+    savedIdent: 8617a7828f584c149d63f51571f60da8
+  xpAttribId:
+    savedIdent: c2c236f4d4024172af1640c76022a008

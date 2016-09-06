@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 998814696, guid: 6ddf2bb4864414d4d82bfa4d197efc5b, type: 3}
+  m_Name: data
+  m_EditorClassIdentifier: 
+  loadSaveProviderFab: {fileID: 100000, guid: 1257aabf43c37ff4dbb1b11940c8fcb5, type: 2}
+  assets:
+  - {fileID: 11400000, guid: 6d0d91c92a6122a4f8e2ebd44af35322, type: 2}
+  - {fileID: 11400000, guid: b035d0eb5d82ccd47a2d9d041c5f0046, type: 2}
+  - {fileID: 11400000, guid: 82e3cfc5be2a3e74694bc94e3b14870c, type: 2}
+  - {fileID: 11400000, guid: 5f5d431078b0ea145b6f290055552609, type: 2}
+  - {fileID: 11400000, guid: 366ef58bbe96403458a61584d77eae99, type: 2}
+  - {fileID: 11400000, guid: 239cffd596409ad4d8184930ca402fec, type: 2}
+  - {fileID: 11400000, guid: f270755a1b9305a4085e46f31cc68157, type: 2}
+  autoCreate:
+  - {fileID: 100000, guid: 01b8983ad05e4b249bf092d5f4d2e9d8, type: 2}
+  - {fileID: 100000, guid: 1c1b79fa4c176a6489ee216a405271c5, type: 2}
+  - {fileID: 100000, guid: 09ab3133ce4318d489b070e4a48b5178, type: 2}
+  autoComponents:
+  - DiaQ;plyRPGDiaQRewardHandler
+  autoFabs:
+  - {fileID: 100000, guid: c0f44e5f7ee78bc40920510561014c8b, type: 2}
+  volume:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  guiVolumeType: 2
+  createDefaultAudioListener: 1

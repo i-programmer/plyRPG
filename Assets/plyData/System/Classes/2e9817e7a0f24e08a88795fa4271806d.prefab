@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400002}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: 2e9817e7a0f24e08a88795fa4271806d
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2062146570, guid: 357936f588f68fb4e8f1d038fdfe02c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id:
+    savedIdent: 2e9817e7a0f24e08a88795fa4271806d
+  def:
+    ident: Monster
+    screenName: Monster
+    shortName: 
+    meta: 
+    description: 
+    images:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  maxLevel: 90
+  maxXP: 120000
+  xpCurve:
+    yMin: 0
+    yMax: 120000
+    values: 0000000044050000880a0000cc0f000011150000551a0000991f0000de240000222a0000662f0000ab340000ef390000333f000078440000bc490000004f00004554000089590000cd5e000011640000566900009a6e0000de73000023790000677e0000ab830000f0880000348e000078930000bd980000019e000045a300008aa80000cead000012b3000057b800009bbd0000dfc2000023c8000068cd0000acd20000f0d7000035dd000079e20000bde7000002ed000046f200008af70000cffc000013020100570701009c0c0100e011010024170100681c0100ad210100f1260100352c01007a310100be360100023c0100474101008b460100cf4b010014510100585601009c5b0100e160010025660100696b0100ae700100f2750100367b01007a800100bf850100038b0100479001008c950100d09a010014a0010059a501009daa0100e1af010026b501006aba0100aebf0100f3c4010037ca01007bcf0100c0d40100
+    easingType: 1
+    acceleration: 1
+  attributesInitData:
+  - id:
+      savedIdent: 8617a7828f584c149d63f51571f60da8
+    baseValue: 51
+    maxValue: 5000
+    canGrow: 1
+    growthCurve:
+      yMin: 51
+      yMax: 5000
+      values: 330000006a000000a2000000d9000000110100004901000080010000b8010000ef010000270200005f02000096020000ce020000050300003d03000075030000ac030000e40300001b040000530400008b040000c2040000fa0400003105000069050000a1050000d805000010060000470600007f060000b7060000ee060000260700005e07000095070000cd070000040800003c08000074080000ab080000e30800001a090000520900008a090000c1090000f9090000300a0000680a0000a00a0000d70a00000f0b0000460b00007e0b0000b60b0000ed0b0000250c00005c0c0000940c0000cc0c0000030d00003b0d0000730d0000aa0d0000e20d0000190e0000510e0000890e0000c00e0000f80e00002f0f0000670f00009f0f0000d60f00000e100000451000007d100000b5100000ec100000241100005b11000093110000cb110000021200003a12000071120000a9120000e1120000181300005013000088130000
+      easingType: 1
+      acceleration: 1
+    alsoUpdateConsumable: 1
+  - id:
+      savedIdent: 623822df9c584dd794ed26b8f916f972
+    baseValue: 51
+    maxValue: 5000
+    canGrow: 1
+    growthCurve:
+      yMin: 51
+      yMax: 5000
+      values: 330000006a000000a2000000d9000000110100004901000080010000b8010000ef010000270200005f02000096020000ce020000050300003d03000075030000ac030000e40300001b040000530400008b040000c2040000fa0400003105000069050000a1050000d805000010060000470600007f060000b7060000ee060000260700005e07000095070000cd070000040800003c08000074080000ab080000e30800001a090000520900008a090000c1090000f9090000300a0000680a0000a00a0000d70a00000f0b0000460b00007e0b0000b60b0000ed0b0000250c00005c0c0000940c0000cc0c0000030d00003b0d0000730d0000aa0d0000e20d0000190e0000510e0000890e0000c00e0000f80e00002f0f0000670f00009f0f0000d60f00000e100000451000007d100000b5100000ec100000241100005b11000093110000cb110000021200003a12000071120000a9120000e1120000181300005013000088130000
+      easingType: 1
+      acceleration: 1
+    alsoUpdateConsumable: 1
+  - id:
+      savedIdent: c2c236f4d4024172af1640c76022a008
+    baseValue: 5
+    maxValue: 999
+    canGrow: 0
+    growthCurve:
+      yMin: 0
+      yMax: 0
+      values: 
+      easingType: 1
+      acceleration: 1
+    alsoUpdateConsumable: 1
+  blox: {fileID: 11400002}
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 677389920, guid: ee437a4da0b2668478cfbed61746a8ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plyBloxGlobalPrefab: {fileID: 100000, guid: 3e6e2cecfcbe53440bd5ba465c125f02, type: 2}
+  states: []
+  vars: []
+  uniqueIdOnObject: -1
+  NeedObjectActive: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
